@@ -1,2 +1,2 @@
 # love
-Thid website is about my love
+This website is about my love
