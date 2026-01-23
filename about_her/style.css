@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/bg.webp);
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  border-right: 5px solid #ff21da;
+  border-left: 5px solid #ff21da;
+}
+
+header {
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #770081;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+header a:hover {
+  background-color: #ff21da;
+  color: #fff;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+.hero {
+  height: 280px;
+  background-image: url(img/her.png);
+  background-size: cover;
+  background-position: 0 -10px;
+  border-top: 4px solid #ff21da;
+  border-bottom: 4px solid #ff21da;
+}
+
+article {
+  padding: 20px;
+}
+
+article .judul-artikel {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+article .ket {
+  font-size: 12px;
+}
+
+article .ket a {
+  text-decoration: none;
+  color: #ff21da;
+}
+
+article p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+footer {
+  height: 50px;
+  background-color: #cf21ff;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+}
+
+.gallery {
+  padding: 20px;
+}
+
+.frame {
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  margin-right: 45px;
+  margin-bottom: 35px;
+  border: solid 5px #cf21ff;
+  border-radius: 10px;
+}
+
+img {
+  width: 200px;
+  border: solid 2px #f821ff;
+  border-radius: 10px;
+}
+
+.frame-spesial {
+  display: inline-block;
+  width: 350px;
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 35px;
+  border: solid 5px #cf21ff;
+  border-radius: 10px;
+}
+
+.frame-spesial img {
+  width: 350px;
+  border: solid 2px #f821ff;
+  border-radius: 10px;
+}
+
+.cap {
+  font-size: 14px;
+  font-style: italic;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.main-con {
+  padding: 20px;
+}
+
+.title-con {
+  color: #525252;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.sub-con {
+  color: #8a8989;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #f9deff;
+  border-radius: 10px;
+  width: 350px;
+  padding: 20px;
+  margin: auto;
+}
+
+.email {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.wa {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.ig {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  font-size: 14px;
+  color: #770081;
+}
